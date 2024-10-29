@@ -20,6 +20,11 @@ namespace FGUFW
         {
             return Addressables.LoadSceneAsync(path).WaitForCompletion();
         }
+
+        public static void Test3()
+        {
+            
+        }
         
     }
 
