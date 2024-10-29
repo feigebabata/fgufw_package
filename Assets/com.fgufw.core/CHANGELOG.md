@@ -1,5 +1,10 @@
 # Changelog
-All notable changes to this package will be documented in this file.
+此包的所有重要更改都将记录在此文件中。
+
+
+## [0.1.1] - 2024-10-29
+- 修改作者名
+- 修改测试函数
 
 ## [0.1.0] - 2024-10-29
 - 创建空包并上传到git

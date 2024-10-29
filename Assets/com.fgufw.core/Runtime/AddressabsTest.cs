@@ -9,6 +9,11 @@ namespace FGUFW
         {
             return Addressables.InstantiateAsync(path,parent).WaitForCompletion();
         }
+
+        public static T Load<T>(string path)
+        {
+            return Addressables.LoadAssetAsync<T>(path).WaitForCompletion();
+        }
     }
 
 }
