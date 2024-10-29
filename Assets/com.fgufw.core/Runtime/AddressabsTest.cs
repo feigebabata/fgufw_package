@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.ResourceProviders;
 
 namespace FGUFW
 {
@@ -14,6 +15,12 @@ namespace FGUFW
         {
             return Addressables.LoadAssetAsync<T>(path).WaitForCompletion();
         }
+
+        public static SceneInstance LoadScene(string path)
+        {
+            return Addressables.LoadSceneAsync(path).WaitForCompletion();
+        }
+        
     }
 
 }

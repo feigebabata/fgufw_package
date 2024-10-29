@@ -1,7 +1,7 @@
 {
     "name":"com.fgufw.core",
     "displayName": "FGUFW_Core",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "unity": "2021.3",
     "description": "fgufw package框架的核心库.",
     "dependencies": 
