@@ -1,0 +1,15 @@
+{
+    "name":"com.fgufw.core",
+    "displayName": "FGUFW_Core",
+    "version": "0.1.0",
+    "unity": "2021.3",
+    "description": "fgufw package框架的核心库.",
+    "dependencies": 
+    {
+        "com.unity.addressables": "1.19.19"
+    },
+    "author":
+    {
+        "name" : "飞鸽巴巴塔"
+     }
+}
